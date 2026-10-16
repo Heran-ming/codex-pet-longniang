@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self'; connect-src 'self'">
+  <title>GPT娘 · 动作手账</title>
+  <link rel="icon" href="/assets/pet.ico">
+  <link rel="stylesheet" href="/panel.css">
+  <link rel="stylesheet" href="/quota-ui.css">
+  <script src="/quota-ui.js" defer></script>
+  <script src="/panel.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="topbar">
+      <div class="wordmark"><span class="mark">✦</span><div><strong>GPT娘</strong><small>她的动作手账</small></div></div>
+      <div class="online"><span id="status-dot"></span><span id="status-text">正在和她碰面…</span></div>
+      <button class="quiet-button" id="show-quota">查看额度</button>
+      <button class="quiet-button" id="quit">退出桌宠</button>
+    </header>
+    <section class="hero" aria-label="动作预览">
+      <div class="hero-text">
+        <div class="eyebrow">A LITTLE COMPANY</div>
+        <h1>今天，也陪你一起。</h1>
+        <p class="intro">看书、喝茶，偶尔发个呆。<br>有事就认真，无事就一起玩。</p>
+        <div class="numbers"><div><strong id="total-count">36</strong><span>段可点播动作</span></div><i></i><div><strong id="new-count">25</strong><span>个新增小动作</span></div></div>
+        <div class="guide"><span>✧</span><p>点她一下看额度，拖动换个位置。<br>甩出可弹跳，右键可挑选动作。</p></div>
+      </div>
+      <div class="preview-stage">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+        <canvas id="hero-canvas" width="1280" height="720" aria-label="当前动作动画"></canvas>
+        <video id="hero-video" muted autoplay loop playsinline aria-hidden="true"></video>
+        <div class="preview-caption"><span id="action-category">生活</span><h2 id="action-title">慢慢喝茶</h2><p id="action-description">捧起小茶杯，喝一口再眯眼微笑。</p></div>
+        <button class="primary-button" id="play-selected">让桌面上的她做这个 <span>↗</span></button>
+      </div>
+      <aside class="settings">
+        <div class="aside-heading"><span>陪伴方式</span><span class="small-star">✦</span></div>
+        <label class="switch-row"><span>随机小动作<small>让日常自然地发生</small></span><input id="autoplay" type="checkbox" checked></label>
+        <label class="switch-row"><span>桌面漫游<small>偶尔在屏幕里走走</small></span><input id="roam" type="checkbox" checked></label>
+        <label class="switch-row"><span>表情气泡<small>偶尔冒出一点小心思</small></span><input id="bubbles" type="checkbox" checked></label>
+        <button class="secondary-button" id="show-emote">来个表情 ✧</button>
+        <label class="size-label" for="size"><span>她的大小</span><output id="size-value">430</output></label>
+        <input id="size" type="range" min="280" max="680" step="10" value="430">
+        <div class="range-labels"><span>小巧</span><span>大一些</span></div>
+        <button class="secondary-button" id="save-settings">保存陪伴方式</button>
+        <p class="settings-note">关闭手账后，她仍会留在桌面。<br>从系统托盘可再次打开。</p>
+      </aside>
+    </section>
+    <section class="library" aria-label="动作目录">
+      <div class="library-heading"><div><span class="eyebrow">LITTLE MOMENTS</span><h2>挑一个此刻的小动作</h2></div><label class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="找找喝茶、比心、小冒险…" aria-label="搜索动作"></label></div>
+      <div class="category-bar" id="categories" aria-label="动作分类"></div>
+      <div class="actions-grid" id="actions"></div>
+      <p class="empty" id="empty" hidden>这个分类里还没找到。换个关键词，或选「全部」看看。</p>
+    </section>
+    <footer><p>GPT娘独立桌宠 · 本地运行 · 逐帧动画</p><div><a href="https://github.com/weit0529/gpt-pet" target="_blank" rel="noreferrer">角色原包</a><span>·</span><a href="https://github.com/PC2005-cloud/dsh-pet" target="_blank" rel="noreferrer">桌宠引擎原作者</a></div></footer>
+  </main>
+  <div class="notice" id="notice" role="status" aria-live="polite"></div>
+</body>
+</html>

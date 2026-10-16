@@ -1,0 +1,181 @@
+{
+  "notificationsEnabled": false,
+  "confineToScreen": true,
+  "physics": {
+    "gravity": 1100,
+    "restitution": 0.58,
+    "groundFriction": 3.5,
+    "ceilingBounce": true,
+    "throwPower": 0.85,
+    "petCollision": false
+  },
+  "whisperPrompt": "白发紫瞳的小龙娘，安静地陪你工作。",
+  "whisperImageEnabled": false,
+  "chatImageEnabled": false,
+  "chatImageLimit": 0,
+  "chatMemoryRounds": 0,
+  "whisperModel": {
+    "provider": "",
+    "model": ""
+  },
+  "chatModel": {
+    "provider": "",
+    "model": ""
+  },
+  "memes": {},
+  "pets": [
+    {
+      "name": "GPT娘",
+      "id": "main",
+      "size": 430,
+      "balanceEnabled": false,
+      "whisperEnabled": false,
+      "workStatusEnabled": false,
+      "fixedEnabled": false,
+      "display": "desktop",
+      "position": {
+        "corner": "bottom-right",
+        "marginX": 70,
+        "marginY": 40
+      }
+    }
+  ],
+  "animations": {
+    "idle": [
+      "安静陪着你"
+    ],
+    "turn": [
+      "四处看一看"
+    ],
+    "drag": [
+      "挥手打招呼"
+    ],
+    "clicks": [
+      "送你一颗心",
+      "笑着招招手",
+      "抱抱小玩偶",
+      "拍手说真棒",
+      "开心跳舞"
+    ],
+    "moves": {
+      "default": {
+        "minDist": 45,
+        "maxDist": 140,
+        "margin": 24,
+        "leadSec": 0.3,
+        "tailSec": 0.3
+      },
+      "actions": [
+        {
+          "name": "向右小跑"
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "生活",
+        "weight": 14,
+        "actions": [
+          "慢慢喝茶",
+          "吃块饼干",
+          "认真看书",
+          "坐着打盹"
+        ],
+        "noMirror": true
+      },
+      {
+        "id": "玩耍",
+        "weight": 14,
+        "actions": [
+          "掌机时间",
+          "吹小泡泡",
+          "转转魔方",
+          "开心跳舞"
+        ],
+        "noMirror": true
+      },
+      {
+        "id": "亲昵",
+        "weight": 14,
+        "actions": [
+          "送你一颗心",
+          "打开小礼物",
+          "抱抱小玩偶",
+          "星星小魔法"
+        ],
+        "noMirror": true
+      },
+      {
+        "id": "慢时光",
+        "weight": 14,
+        "actions": [
+          "写写小手账",
+          "照顾小花",
+          "戴耳机听歌",
+          "哈欠伸懒腰"
+        ],
+        "noMirror": true
+      },
+      {
+        "id": "小庆祝",
+        "weight": 14,
+        "actions": [
+          "吹蜡烛许愿",
+          "吹起小气球",
+          "南瓜灯微光",
+          "提一盏红灯"
+        ],
+        "noMirror": true
+      },
+      {
+        "id": "小冒险",
+        "weight": 14,
+        "actions": [
+          "撑开小花伞",
+          "原地跳跳绳",
+          "纸飞机飞一下",
+          "望远镜探险"
+        ],
+        "noMirror": true
+      },
+      {
+        "id": "日常",
+        "weight": 14,
+        "actions": [
+          "安静陪着你",
+          "向右小跑",
+          "向左小跑",
+          "挥手打招呼",
+          "笑着招招手",
+          "四处看一看"
+        ],
+        "noMirror": true
+      },
+      {
+        "id": "工作表情",
+        "weight": 3,
+        "actions": [
+          "遇到小困难",
+          "歪头等你",
+          "抱电脑敲键盘",
+          "拍手说真棒"
+        ],
+        "noMirror": true
+      }
+    ],
+    "events": {
+      "balance": [],
+      "whisper": [],
+      "workStatus": []
+    }
+  },
+  "eventsRefreshSec": {
+    "balance": 1800,
+    "whisper": 300
+  },
+  "animationWeights": {
+    "idle": 24,
+    "turn": 4,
+    "move": 6
+  }
+}

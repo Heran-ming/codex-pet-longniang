@@ -1,0 +1,10 @@
+{
+  "appId": "gpt-pet-companion-local",
+  "name": "GPT娘桌宠（独立版）",
+  "version": "1.3.0",
+  "runtime": "dsh-pet@0.3.7",
+  "actions": 36,
+  "newActions": 25,
+  "emoteStickers": 6,
+  "captionLines": 24
+}

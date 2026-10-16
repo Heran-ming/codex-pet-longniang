@@ -1,0 +1,326 @@
+[
+  {
+    "id": "tea",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "cookie",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "reading",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "nap",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "gaming",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "bubbles",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "cube",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "dance",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "heart",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "gift",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "plush",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "magic",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "journal",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "flower",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "music",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "stretch",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "cake",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "balloon",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "pumpkin",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "lantern",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "umbrella",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "rope",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "plane",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "binoculars",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "idle",
+    "keyframes": 6,
+    "distinct": 6,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "run-right",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "run-left",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "wave",
+    "keyframes": 4,
+    "distinct": 4,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "greet",
+    "keyframes": 5,
+    "distinct": 5,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "encourage",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "waiting",
+    "keyframes": 6,
+    "distinct": 6,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "working",
+    "keyframes": 6,
+    "distinct": 6,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "cheer",
+    "keyframes": 6,
+    "distinct": 6,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "looking",
+    "keyframes": 16,
+    "distinct": 16,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "look-up",
+    "keyframes": 4,
+    "distinct": 3,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "smirk",
+    "keyframes": 8,
+    "distinct": 8,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+]
